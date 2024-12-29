@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const { connectDB } = require("./config/db.js"); // Ensure this path is correct
-const productRoutes = require("./routes/product.route.js"); // Ensure this path is correct
+const { connectDB } = require("./db.js"); // Ensure this path is correct
+const productRoutes = require("./product.route.js"); // Ensure this path is correct
 const cors = require("cors");
 const path = require("path");
 
